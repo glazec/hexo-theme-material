@@ -1,4 +1,7 @@
 <!-- Index Module -->
+<% if(theme.announcement.enable){%>
+    <%- partial('_partial/notice') %>
+<%}%>
 <div class="material-index mdl-grid">
     <% if( (theme.scheme === 'Paradox') && (page.current === 1) && (is_home()) ) { %>
         <!-- Paradox Header -->
