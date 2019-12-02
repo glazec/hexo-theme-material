@@ -326,3 +326,7 @@ vendors:
     prettify:
     # Material Icons 3.0.1
     material_icons:
+# notice banner
+announcement:
+    enable: false
+    content: "new feature is online"
