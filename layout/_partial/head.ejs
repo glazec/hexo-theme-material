@@ -192,6 +192,12 @@
         <%- partial('_widget/analytics/cnzz-analytics') %>
     <% } %>
 
+    <!-- instant page -->
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
+
+    <!-- lazyLoad -->
+    <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js" async></script>
+
     <!-- Custom Head -->
     <% if (site.data.head) { %>
         <% for (var i in site.data.head) { %>
