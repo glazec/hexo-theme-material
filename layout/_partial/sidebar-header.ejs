@@ -13,7 +13,7 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="<%= url_for(theme.img.avatar) %>" alt="<%= config.author %>'s avatar">
+        <img class="lazyload" data-src="<%= url_for(theme.img.avatar) %>" alt="<%= config.author %>'s avatar">
     </div>
 
     <!-- Sidebar Email -->
